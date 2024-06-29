@@ -54,6 +54,7 @@
     border: 2px solid white;
     border-radius: 9px;
 }
+
 .background{
     background: rgba(0,0,0,0.7) url('building.jpg');
     background-size: cover;
@@ -146,10 +147,45 @@
     display: flex;
     flex-direction: column;
 }
-
-.imgfluid{
+#randomImage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
     max-width: 30vw;
     height: 25vw;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+#randomImage2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 30vw;
+    height: 25vw;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+#randomImage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 30vw;
+    height: 25vw;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+#randomImage3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 30vw;
+    height: 25vw;
+    border: 2px solid black;
+    border-radius: 26px;
 }
 .sectionTag{
     font-size: 2.25vw;
@@ -167,15 +203,7 @@
     margin-left: 20px; 
     height: 28vw;    
 }
-.imgfluid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 450px;
-    border: 2px solid black;
-    border-radius: 26px;
-}
+
 .contact{
     background-color: #f6f5f4;
     height: 80vh;
